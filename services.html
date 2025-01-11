@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="output.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+   
     <title>SERVICES</title>
   
 </head>
@@ -12,12 +12,20 @@
 <body>
   
     <nav class="flex w-full text-[#eaf0f7] text-center bg-white items-center justify-between fixed z-10">
-        <img src="assets/logo1.jpg" alt="Ahmed-Abdul&co" class="w-[70px] h-auto ml-[30px]">
+        <img src="assets/logo1.jpg" alt="Ahmed-Abdul&co" class="w-[70px] h-auto p-4 sm:ml-[30px]">
         <ul class="hidden sm:flex list-none p-0 m-auto">
-            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="index.html">Home</a></li>
-            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="ABOUT US.html">About Us</a></li>
-            <li class="mx-5"><a class="text-[#052659] font-bold text-[18px]" href="services.html">Services</a></li>
-            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="contact.html">Contact Us</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="index.html">Home</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="ABOUT US.html">About Us</a></li>
+            <li class="mx-5"><a class="text-[#052659] font-bold text-xl" href="services.html">Services</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="contact.html">Contact Us</a></li>
+        </ul>
+        <span id="hamburgerMenu" class="text-black text-3xl p-4 cursor-pointer sm:hidden hover:bg-gray-50 ">&#9776;</span>
+        <ul id="mobileMenu" class="hidden list-none  flex-col gap-8  absolute top-16 left-0 bg-[#06080F]  backdrop-blur-3xl w-full h-screen text-4xl ">
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="index.html" >Home</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="ABOUT US.html">About Us</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="services.html">Services</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="contact.html">Contact Us</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="staffportal.html">Staff Portal</a></li>
         </ul>
         <div class="hidden sm:flex"> 
             <a href="login.html"><button class="text-white bg-[#22489e] border-0 rounded-lg mr-10 p-[10px]">Staff portal</button></a>
@@ -201,6 +209,6 @@
         </div>
         <p class="text-[lightcyan] text-base">&copy; 2024 AHMED ABDUL & CO. All rights reserved.</p>
     </footer>
-
+<script src="assets/index.js"></script>
 </body>
 </html>

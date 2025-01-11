@@ -8,18 +8,29 @@
     <link rel="stylesheet" href="output.css">
     
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web\css\all.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 
 <body class="md:text-[14px]"> 
     <nav class=" flex w-full text-[#eaf0f7] text-center bg-white  items-center justify-between fixed z-10"">
-        <img src="assets/logo1.jpg" alt="Ahmed-Abdul&co" class="w-[70px] h-auto ml-[30px]">
+        <img src="assets/logo1.jpg" alt="Ahmed-Abdul&co" class="w-[70px] h-auto p-4 sm:ml-[75px]">
+        
         <ul class="hidden sm:flex list-none p-0 m-auto">
-            <li class="mx-5"><a class="text-[#052659] font-bold text-[18px]" href="index.html" >Home</a></li>
-            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="ABOUT US.html">About Us</a></li>
-            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="services.html">Services</a></li>
-            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="contact.html">Contact Us</a></li>
+            <li class="mx-5"><a class="text-[#052659] font-bold text-xl" href="index.html" >Home</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="ABOUT US.html">About Us</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="services.html">Services</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="contact.html">Contact Us</a></li>
         </ul>
+        <span id="hamburgerMenu" class="text-black text-3xl p-4 cursor-pointer sm:hidden hover:bg-gray-50 ">&#9776;</span>
+            <ul id="mobileMenu" class="hidden list-none  flex-col gap-8  absolute top-16 left-0 bg-[#06080F]  backdrop-blur-3xl w-full h-screen text-4xl ">
+                <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="index.html" >Home</a></li>
+                <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="ABOUT US.html">About Us</a></li>
+                <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="services.html">Services</a></li>
+                <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="contact.html">Contact Us</a></li>
+                <li class="mx-5"><a class="text-[#3982f0] font-bold text-xl" href="staffportal.html">Staff Portal</a></li>
+            </ul>
+        
+          
         <div class="hidden sm:flex"> 
             <a href="login.html"><button class="text-white bg-[#22489e] border-0 rounded-lg mr-10 p-[10px]">Staff portal</button></a>
         </div>
@@ -43,7 +54,7 @@
             <section class = "flex flex-col sm:flex-row justify-between items-center gap-5  m-auto text-[#eaf0f7] text-center bg-white p-10">        	
     		<div>
         		<h1 class="text-[navy] text-4xl font-bold">Professional Services You Can Trust</h1>
-        		<p class="text-[navy] text-[18px] mt-8">At Ahmed Abdul & Co, we offer a wide range of professional services that are tailored to meet your business needs.<br> With our expertise and commitment to excellence, we strive to deliver value-added solutions that enhance your business efficiency and effectiveness.</p>
+        		<p class="text-[navy] text-xl mt-8">At Ahmed Abdul & Co, we offer a wide range of professional services that are tailored to meet your business needs.<br> With our expertise and commitment to excellence, we strive to deliver value-added solutions that enhance your business efficiency and effectiveness.</p>
         	</div>
         	<div class="flex flex-col bg-[#0a5fde] p-[10px] w-[4/6]  shadow-inset-dark">
         		<div class="border-2 border-white rounded-[4px] p-[5px]  m-[10px] text-center w-fit backdrop-blur-[5px]">
@@ -198,5 +209,6 @@
     </footer>
     
     </main>
+    <script src="assets/index.js"></script>
 </body>
 </html>
