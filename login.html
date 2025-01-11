@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<title>LOGIN</title>
+</head>
+
+
+<body class="bg-[url(assets/logo1.jpg)] bg-no-repeat bg-cover bg-[navy]">
+
+    <nav class="w-full flex items-center justify-between sticky bg-[#0a5fde] z-10">
+        <img src="assets/logo2.jpg" alt="Ahmed-Abdul&co" class="w-[70px] h-auto ml-8">
+        <ul class="flex list-none m-auto p-0">
+            <li class="mx-5"><a href="homepage.html" class=" no-underline text-[navy] font-bold text-lg">Home</a></li>
+        </ul>
+        <h3 class="text-sm text-white mr-9 font-bold">STAFF PORTAL</h3>
+    </nav>
+    <section>
+    <div class="container shadow-login-shadow rounded-xl p-8 w-[400px] m-auto mt-5 backdrop-blur-[20px] h-[70vh] items-center">
+        <h2 class="text-center text-4xl text-[darkblue] font-extrabold tracking-wide">LOGIN</h2>
+        <form class="items-center m-auto text-center">
+            <div class="my-5">
+                <label class="block mb-1 text-left font-bold ml-5 text-[navy]" for="email">Email / Phone Number</label>
+                <input class="w-[90%] p-3 border-3 border-double border-[#ddd] rounded-md bg-white text-[navy] text-sm" type="text" id="email" placeholder="Enter your email / phone number">
+            </div>
+            <div class="form-group">
+                <label class="block mb-1 text-left font-bold ml-5 text-[navy]" for="password">Password</label>
+                <input class="w-[90%] p-3 border-3 border-double border-[#ddd] rounded-md bg-white text-[navy] text-sm" type="password" id="password" placeholder="Enter your password">
+            </div>
+
+         <form class="items-center m-auto text-center">
+             <div class="flex justify-between">
+         <label class="block mb-1 text-left font-bold ml-5 text-[navy]" for="remember">
+         <input type="checkbox" id="remember" class="text-sm p-3 my-4" name="remember"> Remember me
+         </label>
+         </div>     
+         <div>
+         <input type="submit" value="Login" class="bg-[darkblue] text-white border-none rounded-md py-3 px-4 cursor-pointer w-1/2 ml-auto tracking-wide hover:bg-[navy]">
+         </div>
+          </form>
+          </form>
+           </div>
+           </div>
+       </section>
+       <footer class="fixed bottom-0 w-full bg-[#0a5fde] bg-transparent backdrop-blur text-[navy] z-10 flex items-center justify-center gap-8">
+           <p class="text-center text-[navy] font-bold">Ahmed Abdul & Co</p>
+           <div class="flex items-center justify-center gap-8">
+
+               <a href="staffportal.html">Staff Portal</a>
+               <a href="reports.html">Reports</a>
+           </div>
+          
+
+       </footer>
+</body>
+</html>

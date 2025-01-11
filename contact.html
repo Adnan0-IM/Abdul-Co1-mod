@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Abdul & Co</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web\css\all.css">
+</head>
+<body> 
+    <nav class=" flex w-full text-[#eaf0f7] text-center bg-white  items-center justify-between sticky top-0 z-10"">
+        <img src="assets/logo1.jpg" alt="Ahmed-Abdul&co" class="w-[70px] h-auto ml-[30px]">
+        <ul class="hidden sm:flex list-none p-0 m-auto">
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="homepage.html" >Home</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="ABOUT US.html">About Us</a></li>
+            <li class="mx-5"><a class="text-[#3982f0] font-bold text-[18px]" href="services.html">Services</a></li>
+            <li class="mx-5"><a class="text-[#052659] font-bold text-[18px]" href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="hidden sm:flex"> 
+            <a href="login.html"><button class="text-white bg-[#22489e] border-0 rounded-lg mr-10 p-[10px]">Staff portal</button></a>
+        </div>
+    </nav>
+   
+
+    <h2 class="text-3xl text-center font-bold text-[navy] my-8">CONTACT US</h2>
+    <section id="contact" class="w-5/6 max-w-[1000px] mx-auto text-[navy] bg-transparent bg-[url(assets/Ahmad.svg)] bg-cover rounded-lg shadow-inherit bg-center block  bg-white p-12 border-2 border-solid boder-[navy] backdrop-blur-[10px]">
+        <div class=" flex flex-col   w-full">
+            <h4 class="text-2xl text-[navy] mb-5 text-center font-bold">Send Us a Message</h4>
+            <form action="submit_form.php" method="post">
+                <div class="  ">
+                    <label class=" sr-only" for="fullName"></label>
+                    <input class="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black" type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+                </div>
+                <div class="   flex flex-col sm:flex-row justify-between gap-1 my-1  text-[#555]">
+                    <div class=" flex-1 ">
+                        <label class="sr-only" for="email"></label>
+                        <input class="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black" type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class=" flex-1 ">
+                        <label class="sr-only" for="phone"></label>
+                        <input class="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                </div>
+                <div class="  ">
+                    <label class=" sr-only" for="message"></label>
+                    <textarea class="w-full p-2 border border-solid border-[#0a5fde] rounded-md  text-black resize-y" id="message" name="message" rows="5" placeholder="Drop Us Message" required></textarea>
+                </div>
+                <div class=" flex items-center justify-center ">
+                    <input class="bg-[#0a5fde] text-white py-3 px-4 border-none rounded-md mt-3 hover:bg-[#0c92ff]" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+       
+    </section>
+    <section class="w-5/6 max-w-[1000px] mx-auto text-[navy] my-4">
+<div class="  backdrop-blur-[5px] ">
+         
+            <h3 class="text-2xl text-center font-bold">Ahmed Abdul & Co. (Chartered Accountants) </h3>
+            <div class=" flex flex-col sm:flex-row gap-4 text-lg leading-none  mt-4 ">
+                <div id="c" class="bg-[#0a5fde] bg-[url(assets/IMG_0933.png)] bg-contain border border-solid border-black bg-no-repeat bg-center backdrop-blur-[10px] w-full sm:w-2/6 font-sans font-bold  text-white shadow-inset-dark mb-2 p-2 text-center ">
+                    <h4 class=" text-lg text-white">E-MAIL</h4>
+                    <p class="text-sm mb-2 p-2"><a class=" no-underline text-white hover:underline " href="mailto:ahmedmohammeabdul@gmail.com">ahmedmohammeabdul@gmail.com</a></p>
+                    <p class="text-sm mb-2 p-2"><a class=" no-underline text-white hover:underline " href="mailto:ahmadabdulandco@gmail.com">ahmadabdulandco@gmail.com</a></p>
+                </div>
+                <div id="c" class="bg-[#0a5fde] bg-[url(assets/IMG_0930.png)] bg-contain border border-solid border-white bg-no-repeat bg-center backdrop-blur-[10px] w-full sm:w-2/6 font-sans font-bold  text-white shadow-inset-dark mb-2 p-2 text-center ">
+                    <h4 class=" text-lg text-white">TEL NO:</h4>
+                    <p class="text-sm mb-2 p-2">08060291557</p>
+                    <p class="text-sm mb-2 p-2">08025506963</p>
+                    <p class="text-sm mb-2 p-2">08039178840</p>
+                    <p class="text-sm mb-2 p-2">08028909191</p>
+                    <p class="text-sm mb-2 p-2">08030527135</p> 
+                </div>
+                <div id="c" class="bg-[#0a5fde] bg-[url(assets/IMG_0931.png)] bg-contain border border-solid border-orange bg-no-repeat bg-center backdrop-blur-[10px] w-full sm:w-2/6 font-sans font-bold  text-white shadow-inset-dark mb-2 p-2 text-center ">
+                    <h4 class=" text-lg text-white">OFFICES:</h4>
+                    <p class="text-sm mb-2 p-2">Suite No.165 SKY Memorial Complex Opp. Unity Bank Jaiz Bank, Zoo Road, Kano, Kano State.</p>
+                    <p class="text-sm mb-2 p-2">Suite No1. 3rd Floor BOA Plaza, No 31/34 Guda Abdullahi Road, Farm Center, Kano Kano State, Nigeria.</p>
+                    <p class="text-sm mb-2 p-2">Plot 0517 Block A.2nd Floor Room 3 AA Plaza, Sokoto Road, Zaria, Kaduna State.</p> 
+                    <p class="text-sm mb-2 p-2">No.9/9 Gida-Dudu, Yadi, Layin Dabinai, Dutse, Jigawa State.</p>
+                </div>
+            </div>
+            
+        </div> 
+    </section>
+            
+</body>
+</html>
